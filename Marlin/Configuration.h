@@ -314,9 +314,7 @@ const bool Z_ENDSTOPS_INVERTING = false; // set to true to invert the logic of t
 
 // default settings 
 
-// old wades #define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 40, 500} 
-
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 40, 875}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {40, 40, 40, 500}
 #define DEFAULT_MAX_FEEDRATE          {300, 300, 300, 300}  // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {5000, 5000, 5000, 5000}    // X, Y, Z, E maximum start speed for accelerated moves.
 
